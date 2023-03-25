@@ -44,7 +44,28 @@
             <h1 class="container__titulo"><b class="container__titulo-negrito">Alura</b>Books</h1>
         </div>
         <ul class="opcoes">
-            <li class="opcoes__item">Categorias</li>
+            <input id="opcao-menu" class="opcoes__botao" type="checkbox">
+            <label for="opcao-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Infraestrura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Design & UX</a>
+                </li>
+            </ul>
             <li class="opcoes__item"><a class="opcoes__link" href="#">Favoritos</a></li>
             <li class="opcoes__item"><a class="opcoes__link" href="#">Minha Estante</a></li>
         </ul>
@@ -166,8 +187,10 @@
         </ul>
     </section>
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input class="contato__email" type="email" placeholder="Cadastre seu e-mail">
     </section>
     <hr>
